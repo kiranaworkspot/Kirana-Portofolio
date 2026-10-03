@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Kirana Az Zahra</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Cadangan: background krem tetap muncul walau style.css belum terbaca -->
+  <style>
+    html, body { background: linear-gradient(180deg, #fbf0d6, #f5d9a8) fixed !important; }
+    #hero, #about, #projects { background: transparent !important; }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#hero">Kirana Az Zahra</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="https://drive.google.com/file/d/1VbpJ76kKDUZNZEWYQXQKTjijvfOSK0py/view?usp=sharing" target="_blank" rel="noopener">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero" class="py-5 text-center">
+    <div class="container py-4">
+      <img src="Kirana Az Zahra.jpg" alt="Photo of Kirana" class="rounded-circle mb-3 profile-img" style="width: 120px; height: 120px; max-width: 120px; object-fit: cover; border: 4px solid #fff;">
+      <h1 class="display-4 fw-bold">Hi, I'm Kirana 👋</h1>
+      <p class="lead text-secondary">UI/UX Design &amp; Web Development Enthusiast</p>
+      <a href="#projects" class="btn btn-dark btn-lg mt-2">See My Work</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <p class="about-label">About Me</p>
+      <h2 class="about-headline">Every screen is a story I'm learning to tell. I'm Kirana</h2>
+      <div class="text-end my-4">
+        <span class="about-badge">
+          <svg width="38" height="38" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#f8e8cc"/><circle cx="12" cy="9" r="3.6" fill="#e0505a"/><path d="M5 21c0-4 3-6 7-6s7 2 7 6z" fill="#e0505a"/></svg>
+          Student. Designer. Organizer.
+        </span>
+      </div>
+      <p class="about-text">
+        Still figuring things out — one wireframe, one event, one late night at a time.<br>
+        Come see what I've been building.
+      </p>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5 fw-bold">Works &amp; Projects</h2>
+
+      <!-- Project 1: gambar kiri, teks kanan -->
+      <div class="row align-items-center g-4 project">
+        <div class="col-md-5">
+          <img src="RECYCLEAN.jpg" class="img-fluid" alt="RecyClean">
+        </div>
+        <div class="col-md-7">
+          <div class="d-flex justify-content-between meta">
+            <span>HARISENIN BOOTCAMP</span><span class="year">2025</span>
+          </div>
+          <h3 class="project-title">Designing a research plan that puts users at the center Case Study</h3>
+          <div class="text-md-end"><a href="#" class="project-link">Case Study · UI/UX · RecyClean</a></div>
+        </div>
+      </div>
+
+      <hr class="dashed">
+
+      <!-- Project 2: teks kiri, gambar kanan -->
+      <div class="row align-items-center g-4 project flex-md-row-reverse">
+        <div class="col-md-5">
+          <img src="Bantu.In.jpg" class="img-fluid" alt="Bantu.In">
+        </div>
+        <div class="col-md-7 text-md-end">
+          <div class="d-flex justify-content-between flex-md-row-reverse meta">
+            <span>HARISENIN BOOTCAMP</span><span class="year">2025</span>
+          </div>
+          <h3 class="project-title">Turning wireframes into a hi-fi experience</h3>
+          <a href="#" class="project-link">Case Study · UI design · Bantu.In</a>
+        </div>
+      </div>
+
+      <hr class="dashed">
+
+      <!-- Project 3 (terbaru): gambar kiri, teks kanan -->
+      <div class="row align-items-center g-4 project">
+        <div class="col-md-5">
+          <img src="SafeStep.png" class="img-fluid" alt="SafeStep">
+        </div>
+        <div class="col-md-7">
+          <div class="d-flex justify-content-between meta">
+            <span>Sisters in Tech (SISTECH) 2026 · RISTEK Fasilkom UI</span><span class="year">2026</span>
+          </div>
+          <h3 class="project-title">SafeStep — Web-Based Women Safety &amp; Smart Protection Platform</h3>
+          <div class="text-md-end"><a href="#" class="project-link">Case Study · UI/UX · SafeStep</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-5 bg-dark text-white text-center">
+    <div class="container">
+      <h2 class="fw-bold mb-3">Get in Touch</h2>
+      <p class="text-secondary">Let's connect and work together!</p>
+      <div class="d-flex justify-content-center gap-3 mt-4">
+        <a href="mailto:kiranaworkspot@gmail.com" class="btn btn-outline-light">Email</a>
+        <a href="https://www.linkedin.com/in/kirana-az-zahra/" target="_blank" class="btn btn-outline-light">LinkedIn</a>
+        <a href="https://github.com/kiranaworkspot" target="_blank" class="btn btn-outline-light">GitHub</a>
+      </div>
+      <p class="mt-5 mb-0 text-secondary small">&copy; 2026 Kirana. All rights reserved.</p>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
